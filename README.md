@@ -34,6 +34,10 @@ Kats的最终解释权归Facebook公司下的数据科学团队所有.  你可�
 Kats 已经上架 PyPI, 你可以使用 `pip` 进行安装操作.
 
 ```bash
+# Install pystan with pip before using pip to install prophet
+# pystan>=3.0 is currently not supported
+pip install pystan==2.19.1.1
+
 pip install --upgrade pip
 pip install kats
 ```
